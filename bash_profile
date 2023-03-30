@@ -8,4 +8,6 @@ if [ -f $HOME/.bashrc ]; then
     source $HOME/.bashrc
 fi
 
+export PATH=$HOME/.julia/bin:$PATH
+
 set -o vi
